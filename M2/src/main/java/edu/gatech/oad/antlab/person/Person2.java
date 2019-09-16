@@ -1,4 +1,4 @@
-package main.java.edu.gatech.oad.antlab.person;
+package edu.gatech.oad.antlab.person;
 
 /**
  *  A simple class for person 2
@@ -39,7 +39,7 @@ public class Person2 {
         String jumbled = "";
         int randInd = (int) (input.length() * Math.random());
 
-        for (int i = 0; i < input.length(); i++) {
+        while (!input.equals("")) {
             jumbled += input.charAt(randInd);
             input = input.substring(0, randInd) + input.substring(randInd + 1);
             randInd = (int) (input.length() * Math.random());
