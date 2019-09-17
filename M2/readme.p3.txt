@@ -1,4 +1,4 @@
 hello
 
 Name: Brian Lin
-Email: brianhaolin@gmail.com
+Email: blin85@gatech.edu
